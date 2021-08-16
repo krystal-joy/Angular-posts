@@ -1,0 +1,66 @@
+div {
+    width: 90%;
+    margin: auto;
+}
+div.header {
+  margin: 10px auto;
+  text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+table td {
+    padding: 10px;
+}
+
+.truncate-row td{
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+tr.post-detail-row {
+  height: 0;
+}
+
+tr.post-element-row:not(.post-expanded-row):hover {
+  background: whitesmoke;
+}
+
+tr.post-element-row:not(.post-expanded-row):active {
+  background: #efefef;
+}
+
+.post-element-row td {
+  border-bottom-width: 0;
+  cursor: pointer;
+}
+
+.post-element-detail {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-element-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: normal;
+  padding-bottom: 16px;
+}
+
+.post-element-user {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 8px 0;
+  border-bottom: 1px solid #cecece;
+}
+
+.post-element-description {
+  padding: 8px 0;
+  width: 100%;
+}
